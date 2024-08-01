@@ -8,7 +8,7 @@ import sys
 import torch.nn as nn
 import jwt
 # caution: path[0] is reserved for script path (or '' in REPL)
-sys.path.insert(1, '/home/aleleo/tesi_code/code_python')
+sys.path.insert(1, '/home/aleleo/tesi_code/code_python\utils')
 
 sys.path.insert(2, '/home/aleleo/tesi_code/code_python/login_ssi')
 
