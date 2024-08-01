@@ -1,0 +1,46 @@
+/* Action.css */
+
+.actions-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.actions-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 1000px; /* Aumenta la larghezza massima */
+  width: 100%;
+  max-height: 80vh;
+  overflow-y: auto; /* Aggiungi questo per rendere il contenitore scrollabile */
+  text-align: left;
+}
+
+.actions-container h1 {
+  text-align: center;
+  color: #333;
+}
+
+.actions-container ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.actions-container li {
+  background: #fff;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Centra il testo all'interno degli elementi li */
+}
+
+.actions-container strong {
+  color: #555;
+}

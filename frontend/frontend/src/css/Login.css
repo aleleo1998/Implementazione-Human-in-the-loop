@@ -1,0 +1,66 @@
+/* Centrare il contenitore principale */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  font-family: 'Arial', sans-serif;
+}
+
+/* Stile per il box di login */
+.login-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 350px;
+}
+
+/* Stile per il testo */
+.login-text {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Stile per il form */
+.login-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Stile per le etichette */
+.login-box label {
+  font-size: 14px;
+  color: #666;
+  text-align: left;
+}
+
+/* Stile per le caselle di testo */
+.login-box input[type="text"],
+.login-box input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Stile per il bottone */
+.login-box button {
+  padding: 10px 0;
+  font-size: 16px;
+  background: #4facfe;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-box button:hover {
+  background: #00f2fe;
+}

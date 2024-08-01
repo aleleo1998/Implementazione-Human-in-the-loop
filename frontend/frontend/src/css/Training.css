@@ -1,0 +1,287 @@
+/* App.css */
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Stile per il contenitore del modulo */
+.server-form-container {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Centra tutto il testo e i contenuti nel contenitore */
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra gli elementi della checkbox verticalmente */
+  margin-bottom: 15px;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centra la checkbox e l'etichetta orizzontalmente */
+  margin-bottom: 10px;
+}
+
+.checkbox-container input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.checkbox-container label {
+  font-size: 14px;
+  color: #333;
+}
+
+.server-form-container h2 {
+  font-size: 16px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.exclude-client {
+  font-size: 18px; /* Dimensione maggiore */
+  margin-bottom: 0; /* Elimina il margine inferiore */
+  margin-top: -10px; /* Sposta la scritta più sopra */
+}
+
+.server-results {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.server-results h2 {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.server-results div {
+  color: #000;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+
+
+/* Stile per l'input del testo */
+.server-input {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+/* Stile per il pulsante */
+.server-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Stile per il pulsante quando viene passato sopra */
+.server-button:hover {
+  background-color: #0056b3;
+}
+
+
+.button-container {
+  text-align: center;
+  margin-bottom: 20px; /* Aggiunto margine inferiore per spaziare il pulsante */
+}
+
+.learning-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.learning-button:hover {
+  background-color: #0056b3;
+}
+
+
+/* App.css */
+
+
+.button-container {
+  margin-bottom: 20px;
+}
+
+.learning-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin:30px
+}
+
+.learning-button:hover {
+  background-color: #0056b3;
+}
+
+.dots-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.dot {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 250px;
+  margin-bottom:250px;
+  margin-right:250px;
+  margin-top:50px; /* Spazio tra i pallini */
+  cursor: pointer;
+}
+
+.dot-info {
+  text-align: center;
+  border: 1px solid #ccc;
+  margin-top: -100px;
+
+  padding: 5px;
+}
+
+.train-info {
+  color: #000;
+  font-size: 14px;
+  
+  border-top: 1px solid #ddd;
+  padding: 10px;
+  margin-top: 10px;
+  line-height: 1.6;
+  text-align: left;
+  border-radius: 5px;
+
+}
+
+.train-info div {
+  margin-bottom: 5px;
+  word-wrap: break-word;
+  width: 100%;
+  
+}
+
+.message-container{
+  margin:10px;
+}
+
+
+.checkbox{
+  margin:30px
+}
+
+.round-train-info div {
+  margin-bottom: 5px;
+  word-wrap: break-word;
+  width: 100%;
+  max-width: 400px;
+  background-color: #f7f7f7; /* Aggiunto uno sfondo */
+  padding: 5px;
+  border-radius: 3px;
+  
+}
+
+.Download {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  width: fit-content;
+  margin: 20px;
+}
+
+.tuple {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.checkboxDownload {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+
+.Download input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.Download input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.Download button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+   justify-self: center; /* Center the button horizontally */
+
+}
+
+.Download button:hover {
+  background-color: #0056b3;
+}
+
+.messageDownload{
+  margin: 10px;
+}
+
+.showActions {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+   justify-self: center; /* Center the button horizontally */
+
+}
+
+.showActions:hover {
+  background-color: #0056b3;
+}
